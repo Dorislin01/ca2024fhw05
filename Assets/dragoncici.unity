@@ -1485,16 +1485,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2415374954111999181, guid: c8db35787eb4f8d439f87020d9a04132, type: 3}
       propertyPath: FirstPersonOffset.x
-      value: -5.1442122e-18
+      value: -0.020725522
       objectReference: {fileID: 0}
     - target: {fileID: 2415374954111999181, guid: c8db35787eb4f8d439f87020d9a04132, type: 3}
       propertyPath: FirstPersonOffset.y
-      value: 0.05999995
+      value: 0.14290199
       objectReference: {fileID: 0}
     - target: {fileID: 2415374954111999181, guid: c8db35787eb4f8d439f87020d9a04132, type: 3}
       propertyPath: FirstPersonOffset.z
-      value: 0.45000002
+      value: 0.44999993
       objectReference: {fileID: 0}
+    - target: {fileID: 2415374954111999181, guid: c8db35787eb4f8d439f87020d9a04132, type: 3}
+      propertyPath: Renderers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415374954111999181, guid: c8db35787eb4f8d439f87020d9a04132, type: 3}
+      propertyPath: Renderers.Array.data[2].Renderer
+      value: 
+      objectReference: {fileID: 1377153879}
     - target: {fileID: 2602242008631205873, guid: c8db35787eb4f8d439f87020d9a04132, type: 3}
       propertyPath: Avatar
       value: 
@@ -1517,11 +1525,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5070783266486149147, guid: c8db35787eb4f8d439f87020d9a04132, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.59
+      value: -0.39
       objectReference: {fileID: 0}
     - target: {fileID: 5070783266486149147, guid: c8db35787eb4f8d439f87020d9a04132, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.14
+      value: -7.51
       objectReference: {fileID: 0}
     - target: {fileID: 5070783266486149147, guid: c8db35787eb4f8d439f87020d9a04132, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1620,6 +1628,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8db35787eb4f8d439f87020d9a04132, type: 3}
+--- !u!137 &1377153879 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 520246428060857735, guid: c8db35787eb4f8d439f87020d9a04132, type: 3}
+  m_PrefabInstance: {fileID: 1257872908}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1591097265
 GameObject:
   m_ObjectHideFlags: 0
